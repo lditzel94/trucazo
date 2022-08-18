@@ -1,2 +1,8 @@
-package org.core.enums;public class Palo {
+package org.core.enums;
+
+public enum Palo {
+    ESPADA,
+    BASTO,
+    COPA,
+    ORO
 }

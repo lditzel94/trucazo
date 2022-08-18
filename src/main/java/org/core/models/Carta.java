@@ -1,9 +1,10 @@
-package org.core;
+package org.core.models;
 
 import lombok.Data;
+import org.core.enums.Palo;
 
 @Data
 public class Carta {
-    private String palo;
+    private Palo palo;
     private short numero;
 }
